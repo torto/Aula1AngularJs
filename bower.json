@@ -1,0 +1,22 @@
+{
+  "name": "teste-um",
+  "description": "",
+  "main": "index.js",
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-route": "^1.5.8",
+    "angular": "angularjs#^1.5.8",
+    "ng-tour": "ng-route#*",
+    "angular-resource": "^1.5.8",
+    "ng-dialog": "^0.6.4"
+  }
+}

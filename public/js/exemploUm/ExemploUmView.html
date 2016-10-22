@@ -1,0 +1,30 @@
+<h1>Olá Gente!</h1>
+<h2>{{saudacao}}</h2>
+<h3 ng-bind="saudacao"></h3>
+
+<input type="text" name="name" ng-model="saudacao">
+
+<h1 ng-repeat="elem in list">{{elem}}</h1>
+
+<button type="button" name="button" ng-click="clickButton()">Click</button>
+
+<input type="number" name="name" ng-init="valueA = 0" ng-model="valueA">
+<input type="number" name="name" ng-init="valueB = 0" ng-model="valueB">
+<button type="button" name="button" ng-click="executaService()">Soma</button>
+<p>
+  {{result}}
+</p>
+
+<input type="number" name="name" ng-init="valueA = 0" ng-model="valueA">
+<input type="number" name="name" ng-init="valueB = 0" ng-model="valueB">
+<button type="button" name="button" ng-click="executaFactory()">Soma</button>
+<p>
+  {{result}}
+</p>
+
+<exemplo-um-directive info="{{saudacao}}" exec-soma="executaDirective(valueA, valueB)">
+
+  <h1>Torto Lindo</h1>
+
+
+</exemplo-um-directive>
